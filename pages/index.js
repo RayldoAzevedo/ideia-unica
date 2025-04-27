@@ -10,14 +10,19 @@ function Home(){
 
 function Contador(){
     const [contador, setContador] = useState(1);
+    const [Multiplicar, setMultiplicar] = useState(1);
     
     function addContador(){
         setContador(contador +1);
+    }
+    function mutiplicador(){
+        setMultiplicar(mutiplicador*contador);
     }
     return(
         <div>
             <h2>Contador = {contador}</h2>
             <button type="button" onClick={addContador}>Adicionar</button>
+            <button type='button' onClick={mutiplicador}>Multiplicar</button>
         </div>
     )     
 }
