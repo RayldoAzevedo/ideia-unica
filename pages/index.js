@@ -3,8 +3,9 @@ import {useState} from 'react'
 function Home(){
     return <div>
         HOME 2025
+
         <Contador/>
-        <div>Finalizado</div>
+        <div>Finalizado teste incicial</div>
     </div>
 }
 
