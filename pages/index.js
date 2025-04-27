@@ -2,10 +2,10 @@ import {useState} from 'react'
 
 function Home(){
     return <div>
-        HOME 2025
-
+        ESTOU COM FOME DONA CADÊ A COMIDA?
+        
         <Contador/>
-        <div>Finalizado teste incicial</div>
+        <div>BEIJOS VOCÊ É ESPECIAL PARA MIM</div>
     </div>
 }
 
